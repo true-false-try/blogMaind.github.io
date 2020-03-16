@@ -1,0 +1,359 @@
+body{
+    min-width: 320px;
+    font-size: 14px;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* link underline style */
+
+a:hover{
+    border-bottom:1px solid darkgrey;
+}
+
+/*style for all links*/
+
+
+/*menu block--------------------------------------------------------------------------------*/
+.navbar{
+    opacity: 0.8;
+    transition: all 0.7s;
+}
+.navbar:hover{
+    opacity: 1;
+    transition: all 0.7s;
+}
+nav .navbar-brand{
+    font-family: 'Akronim', cursive;
+    font-size: 30px;
+}
+ .nav-item {
+    margin-left: 50px;
+    font-family: 'Syncopate', serif;
+    transition: all 0.7s;
+    font-size: 12px;
+}
+.nav-item:hover{
+    font-size: 14px;
+    transition: all 0.7s;
+}
+
+/*header style--------------------------------------------------------------------------------*/
+.header{
+    size: auto;
+    background-image: url("https://picsum.photos/id/274/1062/501");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.header .background-color{
+    background: whitesmoke;
+    opacity: 0.3;
+}
+/*indentation from the top edge*/
+.header .header-cont{
+    margin-top: 70px;
+}
+/*lettering*/
+.header h1{
+    margin-top: 200px;
+    font-family:'Syncopate', serif;
+    color: #212529;
+
+}
+.header h4 {
+    font-family: 'Arizonia', cursive;
+    margin-top: 100px;
+    color: black;
+    margin-bottom:50px;
+}
+.header p{
+    font-family: 'Aparey', cursive;
+    color: #454d55;
+    border-radius: 10px;
+}
+
+
+
+
+
+/* about me block--------------------------------------------------------------------------------*/
+.container .img-fluid{
+    margin-top: 50px;
+}
+.container .line{
+    margin-top: 150px;
+    margin-bottom: 40px;
+    border-left: 2px solid;
+    color: darkgray;
+    padding-left: 10px;
+}
+.container .name{
+    font-family:'Syncopate', serif;
+    color: #23272b;
+}
+.container .about{
+font-family:'Arizonia', serif;
+    font-size: 30px;
+}
+.container .text-justify {
+    font-family:'Syncopate', serif;
+    font-size: 40px;
+    color: #23272b;
+}
+
+/*button review*/
+.container button {
+    font-family:'Syncopate', serif;
+    transition: all 0.7s;
+}
+.container button:hover{
+    transition: all 0.7s;
+}
+.container button a{
+    color: #545b62;
+    transition: all 0.7s;
+
+}
+.container button a:hover{
+    color: #545b62;
+    transition: all 0.7s;
+    text-decoration: none;
+}
+
+
+/* end about me block*/
+
+
+
+/*.slider{
+    margin-bottom: 50px;
+}
+.post-category{
+    font-size: 15px;
+    font-family: 'Syncopate', serif;
+    color:#626262;
+    font-weight: 300;
+}
+
+.post-title a{
+    font-size: 30px;
+    font-family: 'Arizonia',serif;
+    color:lightgrey;
+    transition: all 1s;
+}
+.post-title a:hover{
+    color: black;
+    transition: all 1s;
+}
+
+.single-post p{
+    line-height: 1.5rem;
+    margin-right: 150px;
+    font-family: 'Arapey',serif;
+    font-size: 18px;
+}
+.single-post h2, h3{
+    margin: 0.5rem 0;
+    font-size: 30px;
+}
+
+.after-post{
+    font-size: 100px;
+    font-family: 'Akronim', serif;
+}
+.load-more{
+     padding: 1rem 2rem;
+     margin-top: -100px;
+    font-family: 'Syncopate', serif;
+
+ }
+.load-more span{
+    display: none;
+}
+*/
+/*section post-card*/
+
+/*
+.grid-posts{
+    margin-top: 20px;
+    margin-bottom: 50px ;
+}
+
+.grid-posts .card-body p {
+    font-family: 'Arapey', serif;
+    background-color: #212529;
+    color: whitesmoke;
+}
+.grid-posts .card {
+    margin-bottom: 50px;
+    background-color: #212529;
+}
+.grid-posts .card .card-body{
+    padding-left: 10px;
+    padding-right: 0;
+    background-color: #212529;
+
+}
+.grid-posts .card-img-top {
+    max-height: 510px;
+    max-width: 600px;
+}
+*/
+
+
+
+/*secion signup*/
+/*
+.signup{
+    margin-top: -50px;
+    font-family:'Syncopate', serif;
+    background-color: #f0f0f0;
+    padding: 70px 0;
+
+}
+*/
+/*chess post (range between block chess*/
+/*
+.grid-posts .container .row .block-guetters .chess-post   {
+    margin-top: 50px;
+}
+*/
+/*footer*/
+/*
+footer {
+    font-family: 'Syncopate', serif;
+    background-color: #f0f0f0;
+    padding: 40px 0;
+    color: black;
+}
+footer .footer-left{
+    font-family:'Arizonia',serif ;
+}
+footer a{
+    color: black;
+}
+footer a:hover{
+    color:gold;
+}
+footer .footer-right a{
+    margin-left: 10px;
+}
+
+*/
+/*data.html*/
+
+/*name block*/
+
+.container .row .single-post .name{
+    margin-top: 20px;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-family: 'Akronim', serif;
+
+}
+
+.container .row .img-thumbnail {
+    margin-top: 50px;
+    border: none;
+}
+
+.container .row .post-aboutme p{
+    margin-top: 0;
+    line-height: 1.5rem;
+    margin-right: 0;
+    font-family: 'Arapey',serif;
+    font-size: 18px;
+
+
+
+}
+.container .row .post-aboutme h2, h3{
+    margin: 0.5rem 0;
+    font-size: 30px;
+}
+
+.container .row .post-aboutme  .post-title{
+    margin-top: 30px;
+}
+
+.container .row .card-aboutme{
+    margin-top: 90px;
+}
+
+/* new grid-post-data where card has a white background color*/
+
+.grid-posts-data{
+    margin-top: 20px;
+    margin-bottom: 50px ;
+}
+
+.grid-posts-data .card-body p {
+    margin-top: 0;
+    line-height: 1.5rem;
+    margin-right: 0;
+    font-family: 'Arapey',serif;
+    font-size: 18px;
+
+}
+.grid-posts-data .card {
+    margin-bottom: 50px;
+
+}
+.grid-posts-data .card .card-body-data{
+    padding-left: 10px;
+    padding-right: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 1200px){
+
+}
+@media only screen and (max-width: 1199px){
+
+}
+@media only screen and (max-width: 991px){
+    header  .nav-item {
+        margin-left: 0;
+}
+    .container .row .img-thumbnail {
+        margin-top: 50px;
+        display: block;
+
+    }
+
+}
+@media only screen and (max-width: 1200px){
+
+}
+@media only screen and (max-width: 768px){
+
+    .container .row .img-thumbnail {
+
+        display: block;
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width: 767px){
+
+}
+@media only screen and (max-width: 480px){
+
+}
